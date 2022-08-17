@@ -9,7 +9,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(#2b1055,#7597de);
+    background: #2b1055;
     overflow-x: hidden;
 }
 
@@ -119,6 +119,11 @@ section img#planet {
     mix-blend-mode: screen;
 }
 
+section img#sun {
+    mix-blend-mode: screen;
+    transform: translateY(-100px);
+}
+
 section img#foreground {
     z-index: 10;
 }
@@ -134,9 +139,6 @@ section img#foreground {
     right: -400px;
 }
 
-#meteor {
-    transform: translate(-1150px, -780px);
-}
 
 .btn {
     text-decoration: none;
@@ -160,29 +162,36 @@ section img#foreground {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 70vh;
+    height: 5 0vh;
     overflow: hidden;
 }
 .aboutme {
-    width: 100%px;
     display: flex ;
     justify-content: start;
-    padding: 30px;
-    align-items: center;
     background: rgb(20, 14,100);
     border-radius: 20px;
 }
 
+.amtext {
+    padding: 40px 20px;
+    background: rgb(20, 14, 67);
+    border-radius: 20px;
+    margin: 20px 20px 20px 0px;
+    margin-left: -20px;
+    width: 600px;
+    z-index: 0;
+}
+
 .sec h2 {
     color: #fff;
-    font-size: 3.5em;
+    font-size: 3em;
     padding-bottom: 2%;
 
 }
 
 .sec p {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-family: "Ubuntu";
 }
 
@@ -193,21 +202,27 @@ section img#foreground {
 
 
 .profile {
-    height: 650px ;
+    max-height: 450px ;
     max-width: 100%;
-    border-radius: 60px;
-    border-width: 10px;
-    border-style:solid;
-    border-color: #fff;
 }
 
 .profile2 {
-    height: 350px;
-    border-radius: 20px;
+    width: 300px;
+    border-radius: 0px 0px 0px 20px;
+    transform: translateY(8px);
+    z-index: -1;
 }
 
-.amtext {
-    width: 600px;
+.btn-am {
+    text-decoration: none;
+    padding: 8px 30px;
+    display: inline-block;
+    border-radius: 40px;
+    background:#fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    transform: translateX(75%);
+
 }
 /* Parallax 2 */
 
@@ -243,3 +258,14 @@ section img#foreground {
     z-index: 10;
 }
 
+#caveback {
+    transform: translateY(50px);
+}
+
+#sky {
+    transform: translateX(-300px);
+}
+
+#meteor {
+    transform: translate(-1000px, -400px);
+}
