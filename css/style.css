@@ -13,6 +13,11 @@ body {
     overflow-x: hidden;
 }
 
+h3 {
+    color: #fff;
+    font-size: 1rem;
+}
+
 /* Navbar */
 #title {
     background-color: transparent;
@@ -141,26 +146,96 @@ section img#foreground {
     transform: translateY(100px);
 }
 
-.sec {
+/*About*/
+
+#sec {
     position: relative;
     padding: 100px;
     background: rgb(20, 14,67);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+.aboutme {
+    width: 100%px;
+    display: flex ;
+    justify-content: start;
+    padding: 30px;
+    align-items: center;
+    background: rgb(20, 14,100);
+    border-radius: 20px;
 }
 
 .sec h2 {
     color: #fff;
     font-size: 3.5em;
-    margin-bottom: 10px;
+    padding-bottom: 2%;
+
 }
 
 .sec p {
     color: #fff;
     font-size: 1.2em;
+    font-family: "Ubuntu";
+}
+
+.pfp {
+    display: flex;
+    justify-content: center;
 }
 
 
+.profile {
+    height: 650px ;
+    max-width: 100%;
+    border-radius: 60px;
+    border-width: 10px;
+    border-style:solid;
+    border-color: #fff;
+}
 
+.profile2 {
+    height: 350px;
+    border-radius: 20px;
+}
 
+.amtext {
+    width: 600px;
+}
+/* Parallax 2 */
 
+#caves {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
 
+#caves::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom,rgb(20, 14,67), transparent);
+    z-index: 1000;
+}
+
+#caves img#cavemoon {
+    mix-blend-mode: screen;
+    transform: translateY(-450px);
+    
+}
+
+#caves img#caveforeground {
+    z-index: 10;
+}
 
