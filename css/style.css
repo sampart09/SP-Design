@@ -134,6 +134,10 @@ section img#foreground {
     right: -400px;
 }
 
+#meteor {
+    transform: translate(-1150px, -780px);
+}
+
 .btn {
     text-decoration: none;
     padding: 8px 30px;
