@@ -330,18 +330,18 @@ section img#foreground {
     z-index: 100001;
     background: transparent !important;
     border-color: transparent !important;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     border-radius: 100%;
-    transform: translate(-205px,-120px);
+    transform: translate(-293px,-175px);
 }
 .btnlink {
     position: absolute;
     z-index: 100001;
     background: transparent !important;
     border-color: transparent !important;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     border-radius: 100%;
 }
 
@@ -350,18 +350,18 @@ section img#foreground {
     z-index: 100001;
     background: transparent !important;
     border-color: transparent !important;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     border-radius: 100%;
-    transform: translate(-435px,-15px);
+    transform: translate(-622px,-25px);
 }
 .btnlink2 {
     position: absolute;
     z-index: 100001;
     background: transparent !important;
     border-color: transparent !important;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     border-radius: 100%;
 }
 
