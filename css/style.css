@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +8,6 @@
 
 body {
     min-height: 100vh;
-    background: #2b1055;
     overflow-x: hidden;
 }
 
@@ -22,30 +20,33 @@ h3 {
 #title {
     background-color: transparent;
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     padding: 30px 100px;
     display: flex;
     z-index: 1000;
 }
+
 .container-fluid {
     display: flex;
     justify-content: space-between;
 }
+
 .logo {
     filter: invert(100%);
     margin-top: 2%;
     margin-bottom: 2%;
     width: 20%;
 }
+
 .navbar-brand {
     padding: 8% 0 0 1%;
     text-align: center;
     font-family: "Orbitron";
     font-size: 2rem;
-    font-weight: bolder; 
-    color: white;  
+    font-weight: bolder;
+    color: white;
 }
 
 .navbar-brand:hover {
@@ -91,26 +92,26 @@ section {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    
+
 }
 
-section::before {
+#parallax::before {
     content: '';
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top,rgb(20, 14,67), transparent);
+    background: linear-gradient(to top, rgb(20, 14, 67), transparent);
     z-index: 1000;
 }
 
 section img {
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
-    object-fit:cover;
+    object-fit: cover;
     pointer-events: none;
 }
 
@@ -145,7 +146,7 @@ section img#foreground {
     padding: 8px 30px;
     display: inline-block;
     border-radius: 40px;
-    background:#fff;
+    background: #fff;
     color: #2b1055;
     font-size: 1.5em;
     z-index: 9;
@@ -157,7 +158,7 @@ section img#foreground {
 #sec {
     position: relative;
     padding: 100px;
-    background: rgb(20, 14,67);
+    background: rgb(20, 14, 67);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -165,10 +166,11 @@ section img#foreground {
     height: 5 0vh;
     overflow: hidden;
 }
+
 .aboutme {
-    display: flex ;
+    display: flex;
     justify-content: start;
-    background: rgb(20, 14,100);
+    background: rgb(20, 14, 100);
     border-radius: 20px;
 }
 
@@ -202,7 +204,7 @@ section img#foreground {
 
 
 .profile {
-    max-height: 450px ;
+    max-height: 450px;
     max-width: 100%;
 }
 
@@ -218,12 +220,13 @@ section img#foreground {
     padding: 8px 30px;
     display: inline-block;
     border-radius: 40px;
-    background:#fff;
+    background: #fff;
     color: #2b1055;
     font-size: 1.5em;
     transform: translateX(75%);
 
 }
+
 /* Parallax 2 */
 
 #caves {
@@ -235,7 +238,8 @@ section img#foreground {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    
+    background: #2b1055;
+
 }
 
 #caves::before {
@@ -244,14 +248,14 @@ section img#foreground {
     top: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to bottom,rgb(20, 14,67), transparent);
+    background: linear-gradient(to bottom, rgb(20, 14, 67), transparent);
     z-index: 1000;
 }
 
 #caves img#cavemoon {
     mix-blend-mode: screen;
     transform: translateY(-450px);
-    
+
 }
 
 #caves img#caveforeground {
@@ -269,3 +273,113 @@ section img#foreground {
 #meteor {
     transform: translate(-1000px, -400px);
 }
+
+/* projects */
+
+#break {
+    height: 600px;
+    background: rgb(27, 7, 27);
+}
+
+#break {
+    background: rgb(27, 7, 27);
+}
+
+#caves::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, rgb(27, 7, 27), transparent);
+    z-index: 10000;
+}
+
+#lava::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom, rgb(27, 7, 27), transparent);
+    z-index: 1000;
+}
+
+
+#volcano {
+    mix-blend-mode: screen;
+}
+
+#maxlink {
+    mix-blend-mode: screen;
+}
+
+#portal {
+    mix-blend-mode: screen;
+}
+
+#maskedlink {
+    mix-blend-mode: screen;
+}
+
+#portal2 {
+    mix-blend-mode: screen;
+}
+.links {
+    position: absolute;
+    z-index: 100001;
+    background: transparent !important;
+    border-color: transparent !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    transform: translate(-205px,-120px);
+}
+.btnlink {
+    position: absolute;
+    z-index: 100001;
+    background: transparent !important;
+    border-color: transparent !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.links2 {
+    position: absolute;
+    z-index: 100001;
+    background: transparent !important;
+    border-color: transparent !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    transform: translate(-435px,-15px);
+}
+.btnlink2 {
+    position: absolute;
+    z-index: 100001;
+    background: transparent !important;
+    border-color: transparent !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+/* footer */
+
+#footer {
+    height: 15vh;
+    color:white ;
+    background: rgb(27, 7, 27);
+}
+
+#lava::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(to top, rgb(27, 7, 27), transparent);
+        z-index: 1000;
+    }
+    
