@@ -330,38 +330,34 @@ section img#foreground {
     z-index: 100001;
     background: transparent !important;
     border-color: transparent !important;
-    width: 280px;
-    height: 280px;
+    max-width: 240%;
     border-radius: 100%;
-    transform: translate(-293px,-175px);
 }
-.btnlink {
+.portal {
     position: absolute;
     z-index: 100001;
     background: transparent !important;
     border-color: transparent !important;
-    width: 280px;
-    height: 280px;
+    max-width: 240%;
     border-radius: 100%;
 }
+
 
 .links2 {
     position: absolute;
     z-index: 100001;
     background: transparent !important;
     border-color: transparent !important;
-    width: 280px;
-    height: 280px;
+    max-width: 240%;
     border-radius: 100%;
-    transform: translate(-622px,-25px);
 }
-.btnlink2 {
+
+.portal2 {
     position: absolute;
     z-index: 100001;
     background: transparent !important;
     border-color: transparent !important;
-    width: 280px;
-    height: 280px;
+    max-width: 240%;
     border-radius: 100%;
 }
 
